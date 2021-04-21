@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.eken.com	TRUE	/	FALSE	1999999999	PHPSESSID	p62dsni8bi06d0p86t1g060f61
-www.eken.com	TRUE	/	FALSE	1999999999	language	en
-www.eken.com	TRUE	/	FALSE	1999999999	currency	USD
-
