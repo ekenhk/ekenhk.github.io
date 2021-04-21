@@ -1,0 +1,202 @@
+html {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 9pt;
+    line-height: 1.83
+}
+
+.bannerbox {
+    height: 5in
+}
+
+.bannerbox, .carousel-inner {
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.carousel-inner {
+    margin-top: 70px
+}
+
+.bannerbox .banner {
+    left: 50%;
+    margin-left: -60pc;
+    position: absolute;
+    width: 20in
+}
+
+.bannerbox .banner img {
+    height: 5in
+}
+
+.menu {
+    background: #fff none repeat scroll 0 0
+}
+
+#content {
+    background: #fff none repeat scroll 0 0
+}
+
+.productList {
+    display: table;
+    padding: 2rem 0;
+    width: 100%
+}
+
+.module-container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    /*max-width: 75pc;*/
+    position: relative;
+    width: 100%
+}
+
+.productItem {
+    box-sizing: border-box;
+    float: left;
+    padding: 1rem;
+    width: 25%
+}
+
+.productItem .productLink {
+    background: #fff none repeat scroll 0 0;
+    display: block;
+    transition: all .6s ease 0s
+}
+
+.productItem .productLink, a {
+    cursor: pointer;
+    text-decoration: none
+}
+
+.productItem .productLink .productImages {
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+
+.productItem .productLink .productImages img:first-child {
+    opacity: 1;
+    position: relative
+}
+
+.productItem .productLink .productImages img {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 1.2s ease 0s;
+    width: 100%
+}
+
+img {
+    border-style: none
+}
+
+.productItem .productLink .productImages {
+    text-align: center
+}
+
+.productItem .productLink .productAttributes {
+    padding-top: .5rem;
+    text-align: center
+}
+
+.productItem .productLink {
+    cursor: pointer
+}
+
+.productItem .productLink .productAttributes .productColors {
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+.productItem .productLink .productAttributes {
+    text-align: center
+}
+
+.productItem .productLink .productAttributes .productColors li {
+    float: left;
+    list-style: outside none none;
+    margin: 0 3px
+}
+
+.productItem .productLink .productAttributes .productColors li img {
+    border: 2px solid #cfcfcf;
+    border-radius: 50%;
+    float: left;
+    height: 1rem;
+    vertical-align: middle;
+    width: 1rem
+}
+
+:focus {
+    outline: medium 0
+}
+
+.productItem .productLink .productName {
+    color: #333;
+    font-size: 1.16rem;
+    height: 3.1rem;
+    line-height: 2.6rem;
+    margin: .5rem 1.5rem;
+    overflow: hidden;
+    text-align: center
+}
+
+.productItem .productLink .productDescription {
+    color: #666;
+    font-size: 1rem;
+    height: 6rem;
+    line-height: 1.4rem;
+    margin: .5rem 1.6rem;
+    overflow: hidden;
+    text-align: center;
+    width: 80%
+}
+
+.productItem .productLink:hover {
+    animation-fill-mode: forwards;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, .25);
+    transform: translateY(-4px)
+}
+
+@media only screen and (max-width: 1366px) {
+    .bannerbox {
+        height: 4.5in
+    }
+
+    .bannerbox .banner {
+        margin-left: -54pc;
+    }
+
+    .bannerbox .banner img {
+        height: 4.5in
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-inner {
+        margin-top: 0
+    }
+
+    .bannerbox, .bannerbox .banner img {
+        height: 2in
+    }
+
+    .bannerbox .banner {
+        left: 50%;
+        margin-left: -4in;
+        position: absolute;
+        width: 8in
+    }
+
+    .productItem {
+        width: 50%
+    }
+
+    .productItem .productLink .productDescription {
+        height: 9rem
+    }
+}
